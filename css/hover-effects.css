@@ -1,0 +1,22 @@
+.thumb-container{
+	position:relative;
+	overflow:hidden;
+	}
+	
+/* Zoom Effect */
+.thumb-container .post-thumbnail{ width:100%; height:auto; }
+
+.thumb-container .post-thumbnail{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+.thumb-container .post-thumbnail:hover{
+    -webkit-transform: scale(1.50,1.50);
+    -moz-transform: scale(1.50,1.50);
+	}
+
+/* Fade Scroll Effect */
+.hideme{ opacity:0; }
